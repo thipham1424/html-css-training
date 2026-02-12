@@ -92,6 +92,14 @@ figcaption {
   text-align: left;
 }
 
+/* Ensure images fill the figure box and stay uniform */
+figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 aside {
   width: 230px;
   float: left;
