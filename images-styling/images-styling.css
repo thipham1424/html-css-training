@@ -1,7 +1,7 @@
 body {
   color: #665544;
   background-color: #d4d0c6;
-  background-image: url("images/bg.jpg");
+  background-image: url("bg.jpg");
   font-family: Georgia, "Times New Roman", serif;
   text-align: center;
 }
@@ -20,30 +20,36 @@ body {
   float: left;
   margin: 10px;
   height: 198px;
-  background-image: url("images/bg_image.jpg");
+  background-image: url("bg_image.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
 figure {
   margin: 15px 10px;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 200px;
-  height: 161px;
+  height: 190px; /* image + caption space */
   background-color: #e7e3d8;
-  text-align: left;
+  overflow: hidden;
 }
 
 figure img {
-  width: 190px;
-  height: 150px;
-  margin: 5px;
+  display: block;
+  width: 100%;
+  height: 150px; /* reserve ~40px for caption */
+  object-fit: cover;
   border: 1px solid #d6d6d6;
 }
 
 figcaption {
-  background-image: url("images/bg.jpg");
-  background-repeat: no-repeat;
-  padding-left: 20px;
+  width: 100%;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  text-align: center;
   font-size: small;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
 }
