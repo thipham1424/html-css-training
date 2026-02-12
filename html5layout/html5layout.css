@@ -16,3 +16,45 @@ body {
     border: 2px solid #000;
     background-color: #fff;
 }
+
+header {
+    height: 160px;
+    background-color: seashell;
+}
+
+h1 {
+    width: 940px;
+    height: 80px;
+    padding-top: 50px;
+    padding-left: 30px;
+    margin: 0;
+}
+
+nav, footer {
+    clear: both;
+    color: #fff;
+    background-color: #aeaca8;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px 0 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: #fff;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: #000;
+}
+
