@@ -1,47 +1,49 @@
 body {
-    color: #665544;
-    background-color: #d4d0c6;
-    background-image: url("images/bg.jpg");
-    font-family: Georgia, "Times New Roman", serif;
-    text-align: center;
+  color: #665544;
+  background-color: #d4d0c6;
+  background-image: url("images/bg.jpg");
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
 }
 
 .wrapper {
-    width: 720px;
-    margin: 0 auto;
+  width: 720px;
+  margin: 0 auto;
 }
+
 .header {
-    margin: 40px 0 20px 0;
+  margin: 40px 0 20px 0;
 }
 
 .entry {
-    width: 220px;
-    float: left;
-    margin: 10px;
-    height: 198px;
-    background-image: url("images/bg_image.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
+  width: 220px;
+  float: left;
+  margin: 10px;
+  height: 198px;
+  background-image: url("images/bg_image.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
+
 figure {
-    margin: 15px 10px;
-    display: block;
-    width: 200px;
-    height: 161px;
-    background-color: #e7e3d8;
-    text-align: left;
+  margin: 15px 10px;
+  display: block;
+  width: 200px;
+  height: 161px;
+  background-color: #e7e3d8;
+  text-align: left;
 }
 
 figure img {
-    width: 190px;
-    height: 150px;
-    margin: 5px;
-    border: 1px solid #d6d6d6;
+  width: 190px;
+  height: 150px;
+  margin: 5px;
+  border: 1px solid #d6d6d6;
 }
 
 figcaption {
-    background-image: url("images/bg.jpg");
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    font-size: small;
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  font-size: small;
 }
