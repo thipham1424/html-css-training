@@ -23,3 +23,25 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
 }
+figure {
+    margin: 15px 10px;
+    display: block;
+    width: 200px;
+    height: 161px;
+    background-color: #e7e3d8;
+    text-align: left;
+}
+
+figure img {
+    width: 190px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid #d6d6d6;
+}
+
+figcaption {
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    font-size: small;
+}
