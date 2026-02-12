@@ -1,0 +1,18 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;
+    border: 2px solid #000;
+    background-color: #fff;
+}
