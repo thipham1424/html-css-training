@@ -58,3 +58,60 @@ nav li a.current {
     color: #000;
 }
 
+section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eee;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eee;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+aside {
+    width: 230px;
+    float: left;
+    padding-left: 20px;
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
+
+a {
+    color: #de6581;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+footer {
+    font-size: 80%;
+    padding: 7px 0 0 20px;
+}
+
