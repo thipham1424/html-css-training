@@ -10,3 +10,16 @@ body {
     width: 720px;
     margin: 0 auto;
 }
+.header {
+    margin: 40px 0 20px 0;
+}
+
+.entry {
+    width: 220px;
+    float: left;
+    margin: 10px;
+    height: 198px;
+    background-image: url("images/bg_image.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
